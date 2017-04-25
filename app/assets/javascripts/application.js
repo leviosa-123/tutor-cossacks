@@ -10,7 +10,18 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//
+//В цій папці знаходиться весь js. Можете сміло створювати окремі файли, але всерівно перед загрузкою сайту, весь js
+// скомпілюється в один файл, того назви функцій або змінних мають буди різними, щоб не перекрити одна одну
+//
+//Нижні строчки треба для подрубання  жекуері, тубролінків, і всіх інших джс файлів в цій папці.
+//По дефолту ми можемо юзати jquery і coffee script. es6 немає, його треба буде нам подрубити
+//
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+function test() {
+  alert('lol')
+}

@@ -10,6 +10,16 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ * В цій папці знаходиться весь css. Можете сміло створювати окремі файли, але всерівно перед загрузкою сайту, весь css
+ * скомпілюється в один файл
+ *
+ * Це зробиться через дві нижні строчки, того данний комент не видаляйте, якщо будете робити окремі файли
+ * Це тількі для css. Для сасів і лесів треба буде подрубити геми, і трошкі по іншому підключати файли, но це потім.
+ *
  *= require_tree .
  *= require_self
  */
+
+.test {
+  color: red;
+}
